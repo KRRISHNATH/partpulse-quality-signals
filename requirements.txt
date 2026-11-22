@@ -1,0 +1,7 @@
+# PartPulse - Production Dependencies
+# Compatible with Python 3.10, 3.11, and 3.12 (Recommended: Python 3.12)
+streamlit>=1.35.0
+pandas>=2.1.0
+plotly>=5.18.0
+requests>=2.31.0
+numpy>=1.25.0
