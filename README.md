@@ -116,11 +116,7 @@ PartPulse is 100% cloud-ready with zero external database dependencies.
 4. Select your repository, branch (`main`), and set **Main file path** to `app.py`.
 5. Click **Deploy!**
 
-### Deploying to Hugging Face Spaces
-1. Create a new Space on [Hugging Face](https://huggingface.co/spaces).
-2. Select **Streamlit** as the Space SDK.
-3. Push your repository files (`app.py`, `data_engine.py`, `requirements.txt`, `.streamlit/config.toml`).
-4. Hugging Face will automatically build and host the application.
+
 
 ---
 
