@@ -1,4 +1,4 @@
-# ⚡ PartPulse | Automotive Quality Signal Radar
+# PartPulse | Automotive Quality Signal Radar
 
 > **Explore recurring customer-reported vehicle concerns using public U.S. NHTSA complaint data to guide automotive quality investigations.**
 
@@ -6,7 +6,11 @@ PartPulse is a presentation-ready, prototype web application designed for automo
 
 ---
 
-## 🚘 Product Highlights
+## LAUNCH PartPulse Live-----
+https://partpulse-quality-signals-sf2rmaeynm5hdoow8wq4ht.streamlit.app/
+
+
+## Product Highlights
 
 - **Live Public Data Integration**: Queries official federal records via the NHTSA Complaints REST API (`https://api.nhtsa.gov/complaints/complaintsByVehicle`) with real-time caching.
 - **Executive Quality Dashboard**: Surfaces total report volume, most-mentioned components, crash/fire indicators, and an explainable **Incident Signal Index**.
@@ -18,16 +22,16 @@ PartPulse is a presentation-ready, prototype web application designed for automo
   - Subsystem component filtering and safety event filtering (Crash, Fire, Injury).
   - Expandable complaint cards featuring verbatim owner quotes, masked VINs, incident dates, and direct links to official NHTSA ODI records.
 - **One-Click Case Studies**: High-profile automotive engineering cases pre-configured for instant demoing:
-  - `🚙 2019 Jeep Wrangler` — Steering oscillation & damper concerns
-  - `🛻 2021 Ford F-150` — Powertrain & 10-speed transmission shifts
-  - `🚗 2020 Honda Civic` — Electric power steering sticky feel
-  - `⚡ 2022 Tesla Model 3` — Forward collision & phantom braking reports
-  - `🚐 2020 Chrysler Pacifica` — Electrical system & engine stall investigations
+  - `2019 Jeep Wrangler` — Steering oscillation & damper concerns
+  - ` 2021 Ford F-150` — Powertrain & 10-speed transmission shifts
+  - `2020 Honda Civic` — Electric power steering sticky feel
+  - `2022 Tesla Model 3` — Forward collision & phantom braking reports
+  - ` l2020 Chrysler Pacifica` — Electrical system & engine stall investigations
 - **Export Ready**: Instant CSV export of filtered complaint records with sanitized metadata.
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 PartPulse adheres to a refined automotive executive aesthetic:
 - **Ink Navy & Deep Slate**: `#091726` and `#0F172A` create an authoritative, focused data environment.
@@ -37,7 +41,7 @@ PartPulse adheres to a refined automotive executive aesthetic:
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```
 partpulse/
@@ -53,7 +57,7 @@ partpulse/
 
 ---
 
-## 🚀 Local Installation & Setup
+## Local Installation & Setup
 
 ### Prerequisites
 - Python 3.10, 3.11, or **Python 3.12** (recommended).
@@ -86,7 +90,7 @@ Open **`http://localhost:8502`** in your web browser.
 
 ---
 
-## 🧪 Running Unit Tests
+## Running Unit Tests
 
 To verify the data normalization logic, type conversions, and component extraction:
 
@@ -105,7 +109,7 @@ ALL DATA ENGINE TESTS PASSED!
 
 ---
 
-## ☁️ Public Deployment Instructions
+## Public Deployment Instructions
 
 PartPulse is 100% cloud-ready with zero external database dependencies.
 
@@ -120,7 +124,7 @@ PartPulse is 100% cloud-ready with zero external database dependencies.
 
 ---
 
-## 📖 Methodology, Data Sources & Limitations
+## Methodology, Data Sources & Limitations
 
 1. **Owner-Submitted Filings**: Reports in the NHTSA Office of Defects Investigation (ODI) database are submitted by owners, drivers, and fleet operators. They are exploratory signals for review, **not** confirmed engineering defects or recall orders.
 2. **Missing Population Denominator**: Complaint counts must not be confused with failure rates. A mass-market vehicle with 500 complaints across 1,000,000 sales has a significantly lower true incident rate than a low-volume niche car with 100 complaints across 5,000 sales. Public NHTSA data does not include vehicle registration or mileage exposure denominators.
@@ -131,6 +135,6 @@ PartPulse is 100% cloud-ready with zero external database dependencies.
 
 ---
 
-## 📄 License & Disclaimer
+## License & Disclaimer
 
 PartPulse is an independent student prototype developed for educational and portfolio demonstration purposes. It is not affiliated with, sponsored by, or endorsed by Stellantis, Ford, Tesla, Honda, or the U.S. National Highway Traffic Safety Administration (NHTSA).
